@@ -3,41 +3,53 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Mofor News Letter</title>
 </head>
 
 <body>
-    <img src="" alt="" srcset="">
 
     <nav>
+        <img src="img/logo.png" alt="" srcset="">
+
         <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>Blog</li>
-            <li>About</li>
-            <li>FAQ</li>
+
+            <li><a href="newsLetter.html">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQ</a></li>
         </ul>
     </nav>
 
-    <h1>Subscribe Now</h1>
-    <h2>to Our Newsletter</h2>
+    <div class="sub">
+        <div class="first">
+            <h1>Subscribe Now</h1>
+            <h2>to Our Newsletter</h2>
 
-    <p>Welcome to our newsletter! We are thrilled to have you on board and excited to share our latest updates, travel
-        tips,
-        and captivating stories with you. By subscribing, you have joined a vibrant community of fellow travel
-        enthusiasts
-        who are passionate about exploring the world and embracing new adventures.
-    </p>
+            <p>Welcome to our newsletter! We are thrilled to have you on board and excited to share our latest updates,
+                travel
+                tips,
+                and captivating stories with you. By subscribing, you have joined a vibrant community of fellow travel
+                enthusiasts
+                who are passionate about exploring the world and embracing new adventures.
+            </p>
 
-    <form action="" method="post">
-        <input type="text" name="name" id="name">
-        <input type="password" name="password" id="password">
+            <form action="" method="post">
+                <label for="name">Enter your Name:</label>
+                <input type="text" name="name" id="name" placeholder="Name"><br>
+                <label for="email">Enter your Name:</label>
+                <input type="email" name="email" id="email" placeholder="Email"><br>
 
-        <button type="submit">Send &#8250;</button>
-    </form>
+                <button type="submit">Send &#8250;</button>
+            </form>
 
+        </div>
 
-
+        <div>
+            <img src="img/news.png" alt="" width="450px">
+        </div>
+    </div>
 </body>
 
 </html>

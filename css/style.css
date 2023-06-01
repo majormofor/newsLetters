@@ -1,0 +1,89 @@
+nav {
+
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 127, 223);
+}
+
+ul {
+    /* to remove dot */
+
+    list-style: none;
+    margin-left: 600px;
+
+}
+
+nav img {
+    margin-left: 10px;
+}
+
+body {
+    background-color: rgb(255, 127, 223);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    color: blue;
+    border: 1px solid yellow;
+}
+
+/* a:visited { */
+/* color: rgb(63, 33, 255); */
+/* } */
+
+.sub {
+    display: flex;
+
+}
+
+.first {
+    margin: 50px;
+    border: 17px solid salmon;
+    text-align: justify;
+}
+
+div p {
+    line-height: 1.5;
+}
+
+here justify-content: center;
+align-items: center;
+padding: 40px;
+}
+
+.first {
+    background-color: white;
+    border: 2px solid salmon;
+    padding: 20px;
+    text-align: justify;
+    max-width: 600px;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
